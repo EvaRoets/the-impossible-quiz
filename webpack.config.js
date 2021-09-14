@@ -14,13 +14,11 @@ module.exports = {
                 exclude: /node_modules/,
             },
         ],
+    },
+    mode: 'development',
     // the place where the compiled code will be sent
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'public'),
     },
-    mode: 'development',
-
-    },
-
 }

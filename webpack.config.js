@@ -18,6 +18,7 @@ module.exports = {
     mode: 'development',
     // the place where the compiled code will be sent
     output: {
+        publicPath: 'public',
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'public'),
     },
